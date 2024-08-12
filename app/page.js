@@ -104,7 +104,7 @@ export default function Home() {
     <ThemeProvider theme={theme}>
       <Box
         width="100vw"
-        height="90vh"
+        height="100vh"
         display="flex"
         flexDirection="column"
         justifyContent="center"
@@ -112,6 +112,9 @@ export default function Home() {
         sx={{
           marginTop: '0px',
           paddingTop: '0px',
+          backgroundImage: 'url(/images/img1.jpg)',
+          backgroundSize: 'cover',
+          height: '100vh',
         }}
       >
         <Box
@@ -139,7 +142,7 @@ export default function Home() {
         <Stack
           direction={'column'}
           width="600px"
-          height="700px"
+          height="725px"
           border="1px solid black"
           p={2}
           spacing={3}
@@ -248,8 +251,8 @@ export default function Home() {
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
-          bgcolor: '#c4b5fd',
-          color: '#000000',
+          bgcolor: '#000000',
+          color: '#c4b5fd',
           padding: '10px',
           position: 'fixed',
           bottom: 0,
@@ -317,7 +320,7 @@ export default function Home() {
             }}
           >
             Levon
-          </Link>{', '}
+          </Link>{'. '}
           The source code is available on{''}
           <Link 
             href="https://github.com/wd40wd40wd40/AI_Chatbot"
