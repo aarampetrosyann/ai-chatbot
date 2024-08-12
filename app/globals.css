@@ -11,14 +11,15 @@
 
 ul {
   padding-left: 20px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 ol {
-  padding-left: 20px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  padding-left: 30px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  list-style-position: 'inside';
 }
 
 li {
